@@ -1,3 +1,3 @@
 # Campinho-Digital-Curso-FullStack
 
-<img src="/_img/campinho-digital.png”>
+![Campinho Digital](img src="/_img/campinho-digital.png”)
