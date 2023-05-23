@@ -5,13 +5,12 @@
 // Questão 01
 let numero = parseInt(prompt("Digite um número: "));
 let numeroHTML = document.querySelector("#questao01");
-numeroHTML.innerHTML = `O número é ${numero} * 2 = ${numero * 2}`
 if(numero % 2 == 0){
   numeroHTML.innerHTML = `
-  <p class=".cor-positivo">O resultado é ${numero} o valor é um número par!</p>`
+  <p class=".cor-positivo">O resultado é ${numero * 2}, o valor é um número par!</p>`
 }else{
   numeroHTML.innerHTML = `
-  <p class=".cor-negativo">O resultado é ${numero} o valor é um número impar!</p>
+  <p class=".cor-negativo">O resultado é ${numero * 2}, o valor é um número impar!</p>
   `
 }
 
