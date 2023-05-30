@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="container">
+    <form action="">
+      <h3>Pizzaria</h3>
+      <div>
+        <label for="">Valor da conta: </label><br>
+        <input type="text" id="valorConta" placeholder="Valor da conta " required>
+      </div>
+      <div>
+        <label for="">Valor total da taxa: </label><br>
+        <input type="text" id="valorTaxa" placeholder="Valor total da taxa " required>
+      </div>
+      <div>
+        <label for="">Quantidade de Pagantes: </label><br>
+        <input type="text" id="quantidade" placeholder="Quantidade de Pagantes " required>
+      </div>
+      <div>
+        <button onclick="formEvent()" id="buttonSend">Enviar</button>
+      </div>
+
+    </form>
+  </section>
+  <section>
+    <div id="resultado">
+
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+
+</html>

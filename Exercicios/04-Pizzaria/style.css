@@ -1,0 +1,46 @@
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+form{
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 2%;
+}
+form h3{
+  font-size: 44px;
+  letter-spacing: 0.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+form div label{
+  font-size: 22px;
+  font-weight: 400;
+}
+
+form div input {
+  height: 2.8rem;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 2px solid rgb(14, 35, 73);
+
+  font-size: 18px;
+  letter-spacing: 0.2rem;
+}
+
+form div button{
+  height: 3rem;
+  padding: 1rem 2rem;
+  margin-right: -2rem;
+  background-color: #0e588a;
+  border: none;
+  float: right;
+  font-size: 18px;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
