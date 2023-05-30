@@ -3,16 +3,16 @@ function calcularConta(){
     const pegaValorTaxa = document.getElementById("valorTaxa");
     const pegaQuantidadePessoa = document.getElementById("quantidade");
     const calcValueF = 
-    parseInt(pegaValorConta) + parseInt(pegaValorTaxa) / parseInt(pegaQuantidadePessoa)
+    parseInt(pegaValorConta.value) + parseInt(pegaValorTaxa.value) / parseInt(pegaQuantidadePessoa.value)
    
-    document.getElementById("resultado").innerHTML = calcValueF
+    const resultado = document.getElementById("resultado")
+    resultado.innerHTML = calcValueF
 }
-
 function formEvent(){
   const form = document.getElementById("form")
   form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    console.log("Form Enviado")
+    calcularConta()
   })
 }
