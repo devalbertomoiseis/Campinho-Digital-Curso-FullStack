@@ -53,6 +53,11 @@ form div button{
   color: #fff;
 }
 
+form div button:hover{
+  background-color: #2479b1;
+  transition: 0.6s;
+}
+
 .pizza{
   text-align: center;
   padding: 2rem 0;
