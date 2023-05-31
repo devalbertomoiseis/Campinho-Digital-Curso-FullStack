@@ -8,6 +8,7 @@ function calcularConta(){
     const resultado = document.getElementById("resultado")
     resultado.innerHTML = calcValueF
 }
+
 function formEvent(){
   const form = document.getElementById("form")
   form.addEventListener("submit", (e) => {
