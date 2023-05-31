@@ -3,18 +3,19 @@
   margin: 0 auto;
   padding: 0 2%;
 }
-body{
-  background-image: url("./pizza.jpg");
-  background-size: cover;
-  
-}
 
 form{
   max-width: 60%;
   margin: 4rem auto;
-  padding: 2rem 2rem 6rem 2rem;
+  padding: 2rem 2rem 0rem 2rem;
   background-color: #fff;
   height: auto;
+}
+
+form img {
+  width: 100%;
+  margin: 2rem auto;
+  align-items: center;
 }
 
 form h3{
@@ -30,7 +31,7 @@ form div label{
 }
 
 form div input {
-  height: 2.8rem;
+  height: 2.4rem;
   width: 94%;
   margin: 1rem 0;
   padding: 1rem;
@@ -45,7 +46,7 @@ form div button{
   padding: 1rem 2rem;
   background-color: #0e588a;
   border: none;
-  float: right;
+  width: 100%;
   font-size: 18px;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -55,10 +56,10 @@ form div button{
 .pizza{
   text-align: center;
   padding: 2rem 0;
-  max-width: 68%;
+  max-width: 60%;
   margin: 0 auto;
-  background-color: #fff;
-
+  background-color: #0e588a;
+  color: #fff;
   font-size: 22px;
   font-weight: 400;
 }
